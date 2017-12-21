@@ -16,6 +16,7 @@ public class AddPatient {
     public void Common_1() throws InterruptedException, IOException {
 //        for(TableRow row : data_1.getTableRows()){
 //            String url = row.getCell("path");
+//        fg?
         Thread.sleep(3000);
         driver.get("http://methadone2.cloudapp.net/main/patients/new");
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
