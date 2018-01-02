@@ -44,10 +44,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.cornutum.tcases</groupId>
-            <artifactId>tcases-maven-plugin</artifactId>
-            <version>1.5.4</version>
-            <type>maven-plugin</type>
+            <groupId>com.hmsonline.bundle</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
         </dependency>
 
     </dependencies>

@@ -13,8 +13,7 @@ public class Login {
         web.findElement(By.name("email")).sendKeys(user);
         web.findElement(By.name("password")).sendKeys(pass);
         web.findElement(By.cssSelector("button[type='submit']")).click();
-        web.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-        //Thread.sleep(20);
+        web.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
 }

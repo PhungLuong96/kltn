@@ -1,0 +1,33 @@
+[
+  {
+    "selector":"css=input[ng-model='patient.name']",
+    "action":"input",
+    "data":"fdaslkfjdl"
+  },
+  {
+    "selector":"css=input[name='mobile_phone']",
+    "action":"input",
+    "data":"01828749593"
+  },
+  {
+    "selector":"css=input[name='birth_date']",
+    "action":"input",
+    "data":"20/11/1999"
+  },
+  {
+    "selector":"css=div[name='gender']",
+    "action":"select",
+    "data":"xpath=//*[text()='Nữ']"
+  },
+
+  {
+    "selector":"css=input[name='admission_date']",
+    "action":"input",
+    "data":"20/11/2010"
+  },
+  {
+    "selector":"css=span[class='select2-chosen ng-binding']",
+    "action":"select",
+    "data":"xpath=//*[text()='Khởi liều']"
+  }
+]
