@@ -26,7 +26,11 @@ public class readFile {
                     JSONObject jsonObject = (JSONObject)jsonArray.get(i);
                     String selector = (String)jsonObject.get("selector");
                     String action = (String)jsonObject.get("action");
-                    String data = (String)jsonObject.get("data");
+                    JSONArray data = (JSONArray) jsonObject.get("data");
+                    if (data.isEmpty()){
+
+                    }
+                    else
                     switch (action) {
                         case "nhap":
                             demo.Input(selector, data);
