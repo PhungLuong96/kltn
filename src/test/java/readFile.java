@@ -1,8 +1,6 @@
-import java.io.FileNotFoundException;
+
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Iterator;
-
 import driver.Driver;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -10,12 +8,12 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.WebDriver;
 
-public class Data {
+public class readFile {
     WebDriver driver = Driver.webDriver;
 
     Demo_Action demo = new Demo_Action(driver);
 
-    public Data(WebDriver driver) {
+    public readFile(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -30,12 +28,15 @@ public class Data {
                     String action = (String)jsonObject.get("action");
                     String data = (String)jsonObject.get("data");
                     switch (action) {
-                        case "input":
+                        case "nhap":
                             demo.Input(selector, data);
-                        case "selector":
+                            break;
+                        case "chon":
                             demo.Select(selector, data);
+                            break;
                         case "check":
                             demo.check(selector);
+                            break;
                     }
                 }
             }

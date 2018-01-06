@@ -1,0 +1,46 @@
+[
+  {
+    "action":"input",
+    "selector":"css=input[ng-model='patient.name']",
+    "data":"fdaslkfjdl"
+  },
+  {
+    "action":"input",
+    "selector":"css=input[name='mobile_phone']",
+    "data": {
+      "Common_TC_1": {
+        "value": "01828749593",
+        "assert": "Thêm mới thành công"
+      },
+      "Common_TC_1": {
+        "value": "1828749593",
+        "assert": "Sai định dạng"
+      },
+      "Common_TC_1": {
+        "value": "8749593",
+        "assert": "Sai định dạng"
+      }
+    }
+  },
+  {
+    "action":"input",
+    "selector":"css=input[name='birth_date']",
+    "data":"20/11/1999"
+  },
+  {
+    "action":"select",
+    "selector":"css=div[name='gender']",
+    "data":"xpath=//*[text()='Nữ']"
+  },
+
+  {
+    "action":"input",
+    "selector":"css=input[name='admission_date']",
+    "data":"20/11/2010"
+  },
+  {
+    "action":"select",
+    "selector":"css=span[class='select2-chosen ng-binding']",
+    "data":"xpath=//*[text()='Khởi liều']"
+  }
+]

@@ -1,33 +1,34 @@
 [
   {
+    "action":"nhap",
     "selector":"css=input[ng-model='patient.name']",
-    "action":"input",
-    "data":"fdaslkfjdl"
+    "data":"123"
   },
   {
+    "action":"nhap",
     "selector":"css=input[name='mobile_phone']",
-    "action":"input",
     "data":"01828749593"
   },
   {
+    "action":"nhap",
     "selector":"css=input[name='birth_date']",
-    "action":"input",
     "data":"20/11/1999"
   },
   {
+    "action":"chon",
     "selector":"css=div[name='gender']",
-    "action":"select",
     "data":"xpath=//*[text()='Nữ']"
   },
 
   {
-    "selector":"css=input[name='admission_date']",
-    "action":"input",
-    "data":"20/11/2010"
+    "action":"chon",
+    "selector":"css=span[class='select2-chosen ng-binding']",
+    "data":"xpath=//*[text()='Sinh viên, học sinh']"
   },
   {
-    "selector":"css=span[class='select2-chosen ng-binding']",
-    "action":"select",
-    "data":"xpath=//*[text()='Khởi liều']"
+    "action":"nhap",
+    "selector":"css=input[name='admission_date']",
+    "data":"20/11/2010"
   }
+
 ]

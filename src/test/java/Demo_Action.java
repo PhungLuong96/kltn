@@ -6,7 +6,7 @@ public class Demo_Action extends Action{
     }
     public void Input(String locator, String data) throws InterruptedException {
         driver.findElement(getBy(locator)).sendKeys(data);
-        Thread.sleep(5000);
+//        Thread.sleep(5000);
     }
 
     public void Select(String locator, String data) throws InterruptedException {

@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class Login {
     WebDriver web = Driver.webDriver;
     @Step("Đăng nhập với <username> và <password>")
-    public void Login(String user, String pass) throws InterruptedException {
+    public void Login(String user, String pass) {
         web.get("http://methadone2.cloudapp.net/signin");
         web.findElement(By.name("email")).sendKeys(user);
         web.findElement(By.name("password")).sendKeys(pass);

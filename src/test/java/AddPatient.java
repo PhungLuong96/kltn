@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class AddPatient {
     WebDriver driver = Driver.webDriver;
-    Data data = new Data(driver);
+    readFile data = new readFile(driver);
     Demo_Action demo = new Demo_Action(driver);
     @Step("Tài khoản bác sĩ")
     public void Common_1() throws InterruptedException, IOException {
