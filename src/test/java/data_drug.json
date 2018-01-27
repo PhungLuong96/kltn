@@ -1,0 +1,21 @@
+[
+  //chon ten thuoc
+  {
+    "action":"chon",
+    "selector":"div[name='medicine_list_id']",
+    "data":"xpath=(//li[@class='ui-select-choices-row ng-scope'])[1]"
+  },
+  //nhap lieu luong moi
+  {
+    "action":"nhap",
+    "selector":"css=input[ng-model='new_prescription.dosage']",
+    "data":"12"
+  },
+  //nhap thoi luong ngay
+  {
+    "action":"nhap",
+    "selector":"css=input[name='new_prescription.duration']",
+    "data":"2"
+  }
+
+]

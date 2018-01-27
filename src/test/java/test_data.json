@@ -1,56 +1,16 @@
 [
   {
-    "action":"input",
-    "selector":"css=input[ng-model='patient.name']",
-    "data":[
-      { "value": "Nguyễn Văn A"}
-    ]
-  },
-  {
-    "action":"input",
-    "selector":"css=input[name='mobile_phone']",
+    "action": "nhap",
+    "selector": "css=input[ng-model='patient.mobile_phone']",
     "data": [
       {
-        "value": "01828749593",
-        "assert": "Thêm mới thành công"
+        "value": "0000",
+        "assert": "SĐT không đúng định dạng"
       },
       {
-        "value": "1828749593",
-        "assert": "Sai định dạng"
-      },
-      {
-        "value": "8749593",
-        "assert": "Sai định dạng"
+        "value": "01234567890",
+        "assert": "Tạo mới thành công"
       }
-    ]
-  },
-  {
-    "action":"input",
-    "selector":"css=input[name='birth_date']",
-    "data":[
-      { "value": "20/11/1999"}
-    ]
-  },
-  {
-    "action":"select",
-    "selector":"css=div[name='gender']",
-    "data":[
-      { "value": "xpath=//*[text()='Nữ']"}
-    ]
-  },
-
-  {
-    "action":"input",
-    "selector":"css=input[name='admission_date']",
-    "data":[
-      { "value": "20/1/2010"}
-    ]
-  },
-  {
-    "action":"select",
-    "selector":"css=span[class='select2-chosen ng-binding']",
-    "data":[
-      { "value": "xpath=//*[text()='Khởi liều']"}
     ]
   }
 ]

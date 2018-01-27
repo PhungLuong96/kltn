@@ -1,0 +1,67 @@
+[
+  {
+    "action": "input",
+    "selector": "css=input[ng-model='patient.name']",
+    "data": "Pham Huy Manh"
+  },
+  {
+    "action": "input",
+    "selector": "css=input[ng-model='patient.birthdate']",
+    "data": "12/09/1990"
+  },
+  {
+    "action":"input",
+    "selector":"css=input[ng-model='patient.mobile_phone']",
+    "data":"01828749593"
+  },
+  {
+    "action": "select",
+    "selector": "css=div[ng-model='patient.gender']",
+    "data": "xpath=//*[text()='Nữ']"
+  },
+  {
+    "action": "input",
+    "selector": "css=input[ng-model='patient.admission_date']",
+    "data": "23/01/2012"
+  },
+  {
+    "action": "select",
+    "selector": "css=div[ng-model='patient.condition_treatment']",
+    "data": "xpath=//*[text()='Khởi liều']"
+  },
+  {
+    "action": "select",
+    "selector": "css=div[ng-model='patient.ward_id']",
+    "data": "xpath=(//li[@class='ui-select-choices-row ng-scope select2-highlighted'])[1]"
+  },
+  {
+    "action": "select",
+    "selector": "css=div[ng-model='patient.resident_ward_id']",
+    "data": "xpath=(//li[@class='ui-select-choices-row ng-scope select2-highlighted'])[1]"
+  },
+  {
+    "action": "select",
+    "selector": "css=div[ng-model='patient.allocation_agency_id']",
+    "data": "xpath=(//li[@class='ui-select-choices-row ng-scope select2-highlighted'])[1]"
+  },
+  {
+    "action": "select",
+    "selector": "css=div[ng-model='patient.identification_type']",
+    "data": "xpath=(//li[@class='ui-select-choices-row ng-scope select2-highlighted'])[1]"
+  },
+  {
+    "action": "input",
+    "selector": "css=input[ng-model='patient.identification_number']",
+    "data": "1170765"
+  },
+  {
+    "action": "input",
+    "selector": "css=input[ng-model='patient.identification_issued_date']",
+    "data": "12/07/2000"
+  },
+  {
+    "action": "input",
+    "selector": "css=input[ng-model='patient.identification_issued_by']",
+    "data": "Nam ĐỊnh"
+  }
+]
