@@ -1,6 +1,8 @@
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Random;
+
 import driver.Driver;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -18,6 +20,12 @@ public class readFile {
     public readFile(WebDriver driver) {
         this.driver = driver;
     }
+    public int getRandomInt(int min,int max) {
+       Random rd = new Random();
+       int range = max - min + 1;
+       int randomNum = min + rd.nextInt(range);
+       return randomNum;
+    }
 
     public void readJson(String fileDataPrepare, String fileDataTestCase) throws InterruptedException {
         {
@@ -33,7 +41,9 @@ public class readFile {
                     String selector = (String) fieldTest.get("selector");
                     JSONArray arrDataTest = (JSONArray) fieldTest.get("data");
                     for (int j = 0 ; j < arrDataTest.size(); j++){
-                        this.prepareFormData(dataPrepare, selector);
+                        //enter prepare data
+                        prepareFormData(dataPrepare, selector);
+                        //enter test data
                         JSONObject data = (JSONObject) arrDataTest.get(j);
                         String value = (String) data.get("value");
                         String message = (String) data.get("assert");
@@ -50,10 +60,12 @@ public class readFile {
                                 break;
                         }
                         driver.findElement(By.cssSelector("button[type='submit']")).click();
+                        Thread.sleep(2000);
                         Assert.assertTrue(driver.getPageSource().contains(message));
-                        Thread.sleep(5000);
+                        Thread.sleep(3000);
                         driver.get("http://methadone2.cloudapp.net/main/patients/new");
                     }
+
                 }
             }
             catch (IOException e1) {

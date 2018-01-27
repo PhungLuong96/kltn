@@ -2,22 +2,22 @@
   {
     "action": "input",
     "selector": "css=input[ng-model='patient.name']",
-    "data": "Pham Huy Manh"
+    "data": " Manh hâm"
   },
   {
     "action": "input",
     "selector": "css=input[ng-model='patient.birthdate']",
-    "data": "12/09/1990"
+    "data": "12/09/1999"
   },
   {
     "action":"input",
     "selector":"css=input[ng-model='patient.mobile_phone']",
-    "data":"01828749593"
+    "data":"0182874959"
   },
   {
     "action": "select",
     "selector": "css=div[ng-model='patient.gender']",
-    "data": "xpath=//*[text()='Nữ']"
+    "data": "xpath=//*[text()='Nam']"
   },
   {
     "action": "input",
@@ -52,12 +52,12 @@
   {
     "action": "input",
     "selector": "css=input[ng-model='patient.identification_number']",
-    "data": "1170765"
+    "data": "0001111"
   },
   {
     "action": "input",
     "selector": "css=input[ng-model='patient.identification_issued_date']",
-    "data": "12/07/2000"
+    "data": "12/01/2000"
   },
   {
     "action": "input",

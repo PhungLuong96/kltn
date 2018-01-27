@@ -1,6 +1,6 @@
 [
   {
-    "action": "nhap",
+    "action": "input",
     "selector": "css=input[ng-model='patient.mobile_phone']",
     "data": [
       {
