@@ -1,0 +1,20 @@
+[
+  {
+    "madal":"css=a[class='btn blue-custom btn-sm ng-binding']"
+  },
+  {
+      "action":"select",
+      "selector":"css=div[ng-model='new_prescription.medicine_list_id']",
+      "data":"xpath=(//li[@class='ui-select-choices-row ng-scope'])[1]"
+  },
+  {
+      "action":"input",
+      "selector":"css=input[ng-model='new_prescription.dosage']",
+      "data":"20"
+  },
+  {
+    "action":"input",
+    "selector":"css=input[ng-model='new_prescription.duration']",
+    "data":"2"
+  }
+]

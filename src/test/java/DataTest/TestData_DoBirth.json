@@ -1,0 +1,16 @@
+[
+  {
+    "action":"input",
+    "selector":"css=input[ng-model='patient.birthdate']",
+    "data":[
+      {
+        "value":"15/08/3000",
+        "assert":"Vui lòng nhập ngày nhỏ hơn ngày hiện tại"
+      },
+      {
+        "value":"26/01/1999",
+        "assert":"Tạo mới thành công"
+      }
+    ]
+  }
+]

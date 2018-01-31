@@ -1,8 +1,7 @@
-
+package integration;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Random;
-
 import driver.Driver;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -11,13 +10,13 @@ import org.json.simple.parser.ParseException;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import support.EnterAction;
 
-public class readFile {
+public class ReadFile {
     WebDriver driver = Driver.webDriver;
+    EnterAction demo = new EnterAction(driver);
 
-    Demo_Action demo = new Demo_Action(driver);
-
-    public readFile(WebDriver driver) {
+    public ReadFile(WebDriver driver) {
         this.driver = driver;
     }
     public int getRandomInt(int min,int max) {
@@ -26,15 +25,14 @@ public class readFile {
        int randomNum = min + rd.nextInt(range);
        return randomNum;
     }
-
-    public void readJson(String fileDataPrepare, String fileDataTestCase) throws InterruptedException {
+    String numRandom = String.valueOf(getRandomInt(1,999));
+    public void executeFile(String fileDataPrepare, String fileDataTestCase, String url) throws InterruptedException {
         {
             JSONParser par = new JSONParser();
             try {
                 //read file json
                 JSONArray dataPrepare = (JSONArray) par.parse(new FileReader(fileDataPrepare));
                 JSONArray dataTestCase = (JSONArray) par.parse(new FileReader(fileDataTestCase));
-
                 for (int i = 0 ; i < dataTestCase.size() ; i++){
                     JSONObject fieldTest = (JSONObject) dataTestCase.get(i);
                     String action = (String) fieldTest.get("action");
@@ -50,22 +48,22 @@ public class readFile {
 
                         switch (action) {
                             case "input":
-                                demo.Input(selector, value);
+                                demo.input(selector, value);
                                 break;
                             case "select":
-                                demo.Select(selector, value);
+                                demo.select(selector, value);
                                 break;
                             case "check":
                                 demo.check(selector);
                                 break;
                         }
                         driver.findElement(By.cssSelector("button[type='submit']")).click();
-                        Thread.sleep(2000);
+                        Thread.sleep(3000);
                         Assert.assertTrue(driver.getPageSource().contains(message));
                         Thread.sleep(3000);
-                        driver.get("http://methadone2.cloudapp.net/main/patients/new");
+                        //load lại trang ban đầu để thực hiện testcase tiếp theo
+                        driver.get(url);
                     }
-
                 }
             }
             catch (IOException e1) {
@@ -78,7 +76,13 @@ public class readFile {
     }
 
     public void prepareFormData(JSONArray data, String selectorIgnore ) throws InterruptedException{
-        for(int i = 0; i < data.size(); i++) {
+        JSONObject option = (JSONObject)data.get(0);
+        String madal = (String)option.get("madal");
+        if(!madal.equals("")){
+            driver.findElement(demo.getBy(madal)).click();
+        }
+        Thread.sleep(2000);
+        for(int i = 1; i < data.size(); i++) {
             JSONObject jsonObject = (JSONObject) data.get(i);
             String action = (String) jsonObject.get("action");
             String selector = (String) jsonObject.get("selector");
@@ -86,10 +90,13 @@ public class readFile {
             if (!selector.equals(selectorIgnore)) {
                 switch (action) {
                     case "input":
-                        demo.Input(selector, value);
+                        demo.input(selector, value);
+                        break;
+                    case "inputRandom":
+                        demo.input(selector, value + numRandom);
                         break;
                     case "select":
-                        demo.Select(selector, value);
+                        demo.select(selector, value);
                         break;
                     case "check":
                         demo.check(selector);

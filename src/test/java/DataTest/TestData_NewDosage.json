@@ -1,0 +1,16 @@
+[
+  {
+    "action":"input",
+    "selector":"css=input[ng-model='new_prescription.dosage']",
+    "data":[
+      {
+        "value":"fdsafdsa",
+        "assert":"Trường này không được để trống."
+      },
+      {
+        "value":"3",
+        "assert":"Tạo đơn thuốc thành công"
+      }
+    ]
+  }
+]

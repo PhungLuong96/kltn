@@ -1,3 +1,5 @@
+package integration;
+
 import com.thoughtworks.gauge.Step;
 import driver.Driver;
 import org.junit.Assert;
@@ -16,10 +18,5 @@ public class Login {
         web.findElement(By.name("password")).sendKeys(pass);
         web.findElement(By.cssSelector("button[type='submit']")).click();
         web.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    }
-
-    @Step("See available dashboard")
-    public void seeAvailableDashboard(){
-        Assert.assertTrue(web.getPageSource().contains("Avdf"));
     }
 }

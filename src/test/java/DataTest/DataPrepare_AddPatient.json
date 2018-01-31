@@ -1,8 +1,11 @@
 [
   {
-    "action": "input",
+    "madal":""
+  },
+  {
+    "action": "inputRandom",
     "selector": "css=input[ng-model='patient.name']",
-    "data": " Manh hâm"
+    "data": " Nguyễn Thị A"
   },
   {
     "action": "input",
@@ -10,9 +13,9 @@
     "data": "12/09/1999"
   },
   {
-    "action":"input",
+    "action":"inputRandom",
     "selector":"css=input[ng-model='patient.mobile_phone']",
-    "data":"0182874959"
+    "data":"01828749"
   },
   {
     "action": "select",
@@ -22,7 +25,7 @@
   {
     "action": "input",
     "selector": "css=input[ng-model='patient.admission_date']",
-    "data": "23/01/2012"
+    "data": "31/01/2018"
   },
   {
     "action": "select",
@@ -50,18 +53,18 @@
     "data": "xpath=(//li[@class='ui-select-choices-row ng-scope select2-highlighted'])[1]"
   },
   {
-    "action": "input",
+    "action": "inputRandom",
     "selector": "css=input[ng-model='patient.identification_number']",
     "data": "0001111"
   },
   {
     "action": "input",
     "selector": "css=input[ng-model='patient.identification_issued_date']",
-    "data": "12/01/2000"
+    "data": "12/01/2018"
   },
   {
     "action": "input",
     "selector": "css=input[ng-model='patient.identification_issued_by']",
-    "data": "Nam ĐỊnh"
+    "data": "Nam Định"
   }
 ]
