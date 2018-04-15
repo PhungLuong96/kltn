@@ -2,23 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a792f3f0-2ba9-4721-8147-e0813da69d6c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddDrug.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DataTest/TestData_DoBirth.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/integration/AddDrug.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/Login.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/test.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/data_patient.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Action.java" afterPath="$PROJECT_DIR$/src/test/java/support/CheckSelector.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/AddPatient.java" afterPath="$PROJECT_DIR$/src/test/java/integration/AddPatient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Demo_Action.java" afterPath="$PROJECT_DIR$/src/test/java/support/EnterAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Login.java" afterPath="$PROJECT_DIR$/src/test/java/integration/Login.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/data_prepare.json" afterPath="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddPatient.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/readFile.java" afterPath="$PROJECT_DIR$/src/test/java/integration/ReadFile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/test_data.json" afterPath="$PROJECT_DIR$/src/test/java/DataTest/TestData_Mobiphone.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_24_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/specs/CheckAddDrug.spec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/specs/CheckAddUser.spec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/specs/CheckEditName.spec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DataTest/DataEditName.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddUser.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DataTest/TestData_Email.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DataTest/TestData_PassWord.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/integration/AddUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/integration/EditName.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hmsonline_bundle_json_simple_1_1_1.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/specs/Check.spec" afterPath="$PROJECT_DIR$/specs/CheckAddPatient.spec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/Check.spec" afterPath="$PROJECT_DIR$/specs/Check.spec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo_KLTN.iml" afterPath="$PROJECT_DIR$/Demo_KLTN.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/default/browser.properties" afterPath="$PROJECT_DIR$/env/default/browser.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddPatient.json" afterPath="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddPatient.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DataTest/TestData_DoBirth.json" afterPath="$PROJECT_DIR$/src/test/java/DataTest/TestData_DoBirth.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DataTest/TestData_Mobiphone.json" afterPath="$PROJECT_DIR$/src/test/java/DataTest/TestData_Mobiphone.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DataTest/TestData_NewDosage.json" afterPath="$PROJECT_DIR$/src/test/java/DataTest/TestData_NewDosage.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/integration/AddDrug.java" afterPath="$PROJECT_DIR$/src/test/java/integration/AddDrug.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/integration/AddPatient.java" afterPath="$PROJECT_DIR$/src/test/java/integration/AddPatient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/integration/Login.java" afterPath="$PROJECT_DIR$/src/test/java/integration/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/integration/ReadFile.java" afterPath="$PROJECT_DIR$/src/test/java/integration/ReadFile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,14 +41,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckEditName.spec" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/specs/CheckEditName.spec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckAddUser.spec" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/specs/CheckAddUser.spec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckAddPatient.spec" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/specs/CheckAddPatient.spec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="66" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestData_Mobiphone.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_Mobiphone.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/integration/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1039">
-              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,48 +94,18 @@
       <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/integration/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddPatient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/integration/AddPatient.java">
+      <file leaf-file-name="EditName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/integration/EditName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Check.spec" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/specs/Check.spec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckSelector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/support/CheckSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddDrug.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/integration/AddDrug.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="474">
+              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,11 +113,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnterAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/support/EnterAction.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state relative-caret-position="155">
+              <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckAddDrug.spec" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/specs/CheckAddDrug.spec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestData_DoBirth.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_DoBirth.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -110,8 +148,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Specification" />
         <option value="package-info" />
+        <option value="Specification" />
         <option value="Class" />
       </list>
     </option>
@@ -139,19 +177,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Action.java" />
         <option value="$PROJECT_DIR$/src/test/java/driver/ReadFileExcel.java" />
         <option value="$PROJECT_DIR$/src/test/java/ReadFile.java" />
-        <option value="$PROJECT_DIR$/env/default/browser.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/specs/test.spec" />
         <option value="$PROJECT_DIR$/src/test/java/test.java" />
         <option value="$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/ClassInstanceManager.class" />
         <option value="$PROJECT_DIR$/src/test/java/Data.java" />
         <option value="$PROJECT_DIR$/src/test/java/abc.json" />
         <option value="$PROJECT_DIR$/src/test/java/data_drug.json" />
-        <option value="$PROJECT_DIR$/src/test/java/driver/Driver.java" />
         <option value="$PROJECT_DIR$/specs/Login.spec" />
         <option value="$PROJECT_DIR$/src/test/java/data_prepare.json" />
         <option value="$PROJECT_DIR$/src/test/java/test_data.json" />
@@ -160,23 +193,40 @@
         <option value="$PROJECT_DIR$/src/test/java/Demo_Action.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataTest/testdata_DoBirth.json" />
         <option value="$PROJECT_DIR$/src/test/java/DataTest/AddDrug.json" />
-        <option value="$PROJECT_DIR$/src/test/java/DataTest/TestData_Mobiphone.json" />
         <option value="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddDrug.json" />
-        <option value="$PROJECT_DIR$/specs/Check.spec" />
-        <option value="$PROJECT_DIR$/src/test/java/DataTest/TestData_NewDosage.json" />
         <option value="$PROJECT_DIR$/src/test/java/AddPatient.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddPatient.json" />
-        <option value="$PROJECT_DIR$/src/test/java/DataTest/TestData_DoBirth.json" />
         <option value="$PROJECT_DIR$/src/test/java/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/support/Action.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddDrug.java" />
         <option value="$PROJECT_DIR$/src/test/java/readFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/readFile.java" />
-        <option value="$PROJECT_DIR$/src/test/java/integration/AddPatient.java" />
-        <option value="$PROJECT_DIR$/src/test/java/integration/AddDrug.java" />
-        <option value="$PROJECT_DIR$/src/test/java/support/CheckSelector.java" />
         <option value="$PROJECT_DIR$/src/test/java/support/Demo_Action.java" />
         <option value="$PROJECT_DIR$/src/test/java/support/EnterAction.java" />
+        <option value="$PROJECT_DIR$/specs/Check.spec" />
+        <option value="$PROJECT_DIR$/src/test/java/driver/Driver.java" />
+        <option value="$PROJECT_DIR$/env/default/browser.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/DataEditMobiphone.json" />
+        <option value="$PROJECT_DIR$/specs/CheckEditMobiphone.spec" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/EditMobiphone.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/DataEditName.json" />
+        <option value="$PROJECT_DIR$/src/test/java/support/CheckSelector.java" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/AddPatient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/TestData_DoBirth.json" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/TestData_PassWord.json" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/TestData_Email.json" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/TestData_NewDosage.json" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddPatient.json" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddUser.json" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/AddDrug.java" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/AddUser.java" />
+        <option value="$PROJECT_DIR$/specs/CheckAddDrug.spec" />
+        <option value="$PROJECT_DIR$/specs/CheckAddUser.spec" />
+        <option value="$PROJECT_DIR$/specs/CheckEditName.spec" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/EditName.java" />
+        <option value="$PROJECT_DIR$/specs/CheckAddPatient.spec" />
+        <option value="$PROJECT_DIR$/src/test/java/DataTest/TestData_Mobiphone.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/integration/ReadFile.java" />
       </list>
     </option>
@@ -189,8 +239,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
+    <option name="x" value="-159" />
+    <option name="width" value="817" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -211,7 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,41 +301,30 @@
             </path>
             <path>
               <item name="Demo_KLTN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo_KLTN" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo_KLTN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo_KLTN" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo_KLTN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo_KLTN" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="last_opened_file_path" value="E:/KLTN/json-simple-1.1.1.jar!/" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.39770114" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luong96\IdeaProjects\Demo_KLTN\src\test\java\DataTest" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\luong96\IdeaProjects\Demo_KLTN\src\test\java\integration" />
       <recent name="C:\Users\luong96\IdeaProjects\Demo_KLTN\src\test\java\DataTest" />
@@ -304,10 +342,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Check.spec">
-    <configuration name="Check.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+  <component name="RunManager" selected="Gauge Execution.CheckAddPatient.spec">
+    <configuration name="CheckAddDrug.spec" type="executeSpecs" factoryName="Gauge Execution">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/Check.spec" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/CheckAddDrug.spec" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -317,9 +355,9 @@
       <envMap />
       <setting name="rowsRange" value="" />
     </configuration>
-    <configuration name="Login.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+    <configuration name="CheckAddPatient.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/Login.spec" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/CheckAddPatient.spec" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -329,9 +367,33 @@
       <envMap />
       <setting name="rowsRange" value="" />
     </configuration>
-    <configuration name="Test Date of birth field" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+    <configuration name="CheckAddUser.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/Check.spec:17" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/CheckAddUser.spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="Demo_KLTN" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+    </configuration>
+    <configuration name="CheckEditMobiphone.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/CheckEditMobiphone.spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="Demo_KLTN" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+    </configuration>
+    <configuration name="CheckEditName.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/CheckEditName.spec" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -422,30 +484,19 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="test.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/test.spec" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="Demo_KLTN" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Gauge Execution.Check.spec" />
-      <item index="1" class="java.lang.String" itemvalue="Gauge Execution.test.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Gauge Execution.Login.spec" />
-      <item index="3" class="java.lang.String" itemvalue="Gauge Execution.Test Date of birth field" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Gauge Execution.CheckAddDrug.spec" />
+      <item index="1" class="java.lang.String" itemvalue="Gauge Execution.CheckAddPatient.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Gauge Execution.CheckEditMobiphone.spec" />
+      <item index="3" class="java.lang.String" itemvalue="Gauge Execution.CheckEditName.spec" />
+      <item index="4" class="java.lang.String" itemvalue="Gauge Execution.CheckAddUser.spec" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Gauge Execution.Check.spec" />
-        <item index="1" class="java.lang.String" itemvalue="Gauge Execution.Test Date of birth field" />
-        <item index="2" class="java.lang.String" itemvalue="Gauge Execution.Login.spec" />
-        <item index="3" class="java.lang.String" itemvalue="Gauge Execution.test.spec" />
+        <item index="0" class="java.lang.String" itemvalue="Gauge Execution.CheckAddPatient.spec" />
+        <item index="1" class="java.lang.String" itemvalue="Gauge Execution.CheckAddUser.spec" />
+        <item index="2" class="java.lang.String" itemvalue="Gauge Execution.CheckEditName.spec" />
+        <item index="3" class="java.lang.String" itemvalue="Gauge Execution.CheckEditMobiphone.spec" />
       </list>
     </recent_temporary>
   </component>
@@ -463,35 +514,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Check_spec - 2018.01.31 at 09h 13m 36s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.14 at 12h 57m 26s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Check_spec - 2018.01.31 at 09h 21m 52s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.14 at 12h 59m 51s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Check_spec - 2018.01.31 at 09h 30m 39s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.14 at 13h 01m 43s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Check_spec - 2018.01.31 at 09h 33m 46s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.14 at 13h 07m 39s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Check_spec - 2018.01.31 at 09h 55m 23s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.14 at 13h 14m 07s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Check_spec - 2018.01.31 at 09h 56m 33s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.14 at 13h 18m 49s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Check_spec - 2018.01.31 at 09h 57m 33s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.14 at 13h 59m 45s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Check_spec - 2018.01.31 at 10h 00m 30s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.14 at 14h 09m 31s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Check_spec - 2018.01.31 at 10h 32m 07s.xml">
-      <configuration name="Check.spec" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.15 at 22h 31m 55s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
-    <history-entry file="Test_Date_of_birth_field - 2018.01.31 at 09h 36m 37s.xml">
-      <configuration name="Test Date of birth field" configurationId="executeSpecs" />
+    <history-entry file="CheckAddPatient_spec - 2018.04.15 at 22h 36m 12s.xml">
+      <configuration name="CheckAddPatient.spec" configurationId="executeSpecs" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -506,13 +557,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42701864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2715959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34626648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -524,6 +574,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -531,85 +582,84 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/specs/Check.spec">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/execution/MethodExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="140">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/support/EnterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/AddPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/data_drug.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/data_patient.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/specs/Login.spec" />
+    <entry file="file://$PROJECT_DIR$/specs/test.spec" />
+    <entry file="file://$PROJECT_DIR$/Demo_KLTN.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/ReadFile.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/AddPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/support/CheckSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/support/EnterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/driver/ReadFileExcel.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/default/browser.properties">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/html-report/html-report.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/html-report/specs/CheckAddDrug.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/driver/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gauge/failures.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/html-report/specs/Check.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/gauge.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-42003">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2501" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/api.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -620,21 +670,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/html-report/specs/Check.html">
+    <entry file="file://$PROJECT_DIR$/env/default/default.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="19" column="75" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="75" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/html-report/js/clipboard.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reports/html-report/js/auto-complete.min.js">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/driver/DriverFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -648,232 +691,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/ReadFile.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/reports/html-report/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="-258">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/ClassInstanceManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/execution/AbstractExecutionStage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/processor/ExecuteStepProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/connection/MessageDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/GaugeRuntime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/execution/HookExecutionStage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/execution/StepExecutionStage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/execution/ExecutionPipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/gauge/gauge-java/0.6.3/gauge-java-0.6.3.jar!/com/thoughtworks/gauge/execution/MethodExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/default/default.properties">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/driver/Driver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/data_drug.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/driver/DriverFactory.java">
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_0_1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/example.spec">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.0.1/selenium-chrome-driver-3.0.1.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/driver/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#351#352#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/data_patient.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_Mobiphone.json">
+    <entry file="file://$PROJECT_DIR$/env/default/browser.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddDrug.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_PassWord.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddPatient.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_PassWord.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_DoBirth.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="629">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_NewDosage.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddPatient.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_Email.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/driver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/Login.spec">
+    <entry file="file://$PROJECT_DIR$/src/test/java/support/CheckSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/test.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1039">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/support/EnterAction.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#146#147#0" expanded="false" />
+            <element signature="e#175#176#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/AddUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/example.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddUser.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/DataPrepare_AddDrug.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/AddPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/DataEditName.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/CheckEditName.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/CheckAddUser.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_DoBirth.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/CheckAddDrug.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/CheckAddPatient.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="66" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/integration/AddDrug.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataTest/TestData_Mobiphone.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/EditName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/support/CheckSelector.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="155">
+          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/AddPatient.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/Check.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -934,7 +986,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39770114" />
               </list>
             </option>
           </splitter-proportions>
@@ -946,7 +998,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39770114" />
               </list>
             </option>
           </splitter-proportions>

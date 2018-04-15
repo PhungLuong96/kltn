@@ -1,0 +1,19 @@
+[
+  {
+    "madal":"xpath=(//a[@ng-click='check_change_agency(patient)'])[1]"
+  },
+  {
+    "action": "input",
+    "selector": "css=input[ng-model='patient.name']",
+    "data": [
+      {
+        "value": "",
+        "assert": "Trường này không được để trống"
+      },
+      {
+        "value": "Tran Thi Mai",
+        "assert": "Cập nhật thông tin thành công"
+      }
+    ]
+  }
+]

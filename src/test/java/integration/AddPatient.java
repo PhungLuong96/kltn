@@ -10,8 +10,8 @@ import java.io.IOException;
 public class AddPatient {
     WebDriver driver = Driver.webDriver;
     ReadFile data = new ReadFile(driver);
-    @Step("Tài khoản bác sĩ <database>")
-    public void Common_1( Table database) throws InterruptedException, IOException {
+    @Step("Add a new patient <database>")
+    public void addPatient( Table database) throws InterruptedException{
         for(TableRow row : database.getTableRows()) {
             Thread.sleep(5000);
             String url = row.getCell("url");

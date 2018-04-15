@@ -4,8 +4,12 @@
     "selector":"css=input[ng-model='new_prescription.dosage']",
     "data":[
       {
-        "value":"fdsafdsa",
-        "assert":"Trường này không được để trống."
+        "value":"",
+        "assert":"Trường này không được để trống"
+      },
+      {
+        "value":"mười hai",
+        "assert":"Số không đúng định dạng"
       },
       {
         "value":"3",

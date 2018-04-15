@@ -1,0 +1,42 @@
+[
+  {
+    "action":"input",
+    "selector":"css=input[ng-model='user.email']",
+    "data":
+        [
+          {
+            "value": "",
+            "assert": "Trường này không được để trống"
+          },
+          {
+            "value":"phungluonggmail.com",
+            "assert":"Email không đúng định dạng"
+          },
+          {
+            "value":"@phungluong.com",
+            "assert":"Email không đúng định dạng"
+          },
+          {
+            "value":"Phung Thi Luong",
+            "assert":"Email không đúng định dạng"
+          },
+          {
+            "value":"phungthiluong123@gmail.com",
+            "assert":"Tạo mới người dùng thành công"
+          },
+          {
+            "value":"phungthiluong012345678901234567890123456@gmail.com",
+            "assert":"Tạo mới người dùng thành công"
+          },
+          {
+            "value":"phungthiluong0123456789012345678901234567@gmail.com",
+            "assert":"Trường này không được quá 50 ký tự."
+          },
+          {
+            "value":"capphat2@gmail.com ",
+            "assert":"Email của bạn đã tồn tại"
+          }
+        ]
+  }
+
+]

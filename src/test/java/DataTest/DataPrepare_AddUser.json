@@ -1,0 +1,32 @@
+[
+  {
+    "madal":"css=a[ng-click='showCreateUserModal()']"
+  },
+  {
+    "action":"inputRandomString",
+    "selector":"css=input[ng-model='user.email']",
+    "data":"phungluong123@gmail.com"
+  },
+  {
+    "action":"inputRandomNum",
+    "selector":"css=input[ng-model='user.password']",
+    "data":"phungluong@#*"
+  },
+  {
+    "action":"inputRandomNum",
+    "selector":"css=input[ng-model='user.first_name']",
+    "data":"Phung"
+  },
+  {
+    "action":"inputRandomNum",
+    "selector":"css=input[ng-model='user.last_name']",
+    "data":"Hoa"
+  },
+  {
+    "action":"select",
+    "selector":"css=div[name='role']",
+    "data":"xpath=(//li[@class='ui-select-choices-row ng-scope select2-highlighted'])[1]"
+
+  }
+
+]

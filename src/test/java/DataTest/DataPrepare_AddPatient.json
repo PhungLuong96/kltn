@@ -3,7 +3,7 @@
     "madal":""
   },
   {
-    "action": "inputRandom",
+    "action": "inputRandomNum",
     "selector": "css=input[ng-model='patient.name']",
     "data": " Nguyễn Thị A"
   },
@@ -13,7 +13,7 @@
     "data": "12/09/1999"
   },
   {
-    "action":"inputRandom",
+    "action":"inputRandomNum",
     "selector":"css=input[ng-model='patient.mobile_phone']",
     "data":"01828749"
   },
@@ -25,7 +25,7 @@
   {
     "action": "input",
     "selector": "css=input[ng-model='patient.admission_date']",
-    "data": "31/01/2018"
+    "data": "30/05/2019"
   },
   {
     "action": "select",
@@ -53,7 +53,7 @@
     "data": "xpath=(//li[@class='ui-select-choices-row ng-scope select2-highlighted'])[1]"
   },
   {
-    "action": "inputRandom",
+    "action": "inputRandomNum",
     "selector": "css=input[ng-model='patient.identification_number']",
     "data": "0001111"
   },

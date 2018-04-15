@@ -5,16 +5,44 @@
     "selector": "css=input[ng-model='patient.mobile_phone']",
     "data": [
       {
-        "value": "0000",
+        "value": "0000000000",
         "assert": "SĐT không đúng định dạng"
       },
       {
-        "value": "01234567",
+        "value": "12345678910",
         "assert": "SĐT không đúng định dạng"
       },
       {
-        "value": "01234567890",
+        "value": "số điện thoại",
+        "assert": "SĐT không đúng định dạng"
+      },
+      {
+        "value": "!@#$%^&*()",
+        "assert": "SĐT không đúng định dạng"
+      },
+      {
+        "value": "0123dienthoai",
+        "assert": "SĐT không đúng định dạng"
+      },
+      {
+        "value": "012345678",
+        "assert": "SĐT không đúng định dạng"
+      },
+      {
+        "value": "",
         "assert": "Tạo mới thành công"
+      },
+      {
+        "value": "0123456789",
+        "assert": "Tạo mới thành công"
+      },
+      {
+        "value": "012345678903",
+        "assert": "Tạo mới thành công"
+      },
+      {
+        "value": "0123456789034",
+        "assert": "SĐT không đúng định dạng"
       }
     ]
   }
