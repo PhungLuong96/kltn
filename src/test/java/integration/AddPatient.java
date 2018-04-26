@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class AddPatient {
     WebDriver driver = Driver.webDriver;
-    ReadFile data = new ReadFile(driver);
+    ReadFile data = new ReadFile();
     @Step("Add a new patient <database>")
     public void addPatient( Table database) throws InterruptedException{
         for(TableRow row : database.getTableRows()) {

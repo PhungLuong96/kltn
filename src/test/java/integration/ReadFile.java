@@ -10,15 +10,13 @@ import org.json.simple.parser.ParseException;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import support.CheckSelector;
 import support.EnterAction;
 
 public class ReadFile {
     WebDriver driver = Driver.webDriver;
-    EnterAction demo = new EnterAction(driver);
-
-    public ReadFile(WebDriver driver) {
-        this.driver = driver;
-    }
+    EnterAction demo = new EnterAction();
+    CheckSelector chkSelector = new CheckSelector();
     static final String AB = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     static Random rnd = new Random();
 
@@ -36,11 +34,11 @@ public class ReadFile {
        return randomNum;
     }
 
-    public void executeFile(String fileDataPrepare, String fileDataTestCase, String url) throws InterruptedException {
+    public void executeFile(String fileDataPrepare, String fileDataTest, String url) throws InterruptedException {
         JSONParser par = new JSONParser();
         try {
             JSONArray dataPrepare = (JSONArray) par.parse(new FileReader(fileDataPrepare));
-            JSONArray dataTestCase = (JSONArray) par.parse(new FileReader(fileDataTestCase));
+            JSONArray dataTestCase = (JSONArray) par.parse(new FileReader(fileDataTest));
             for (int i = 0 ; i < dataTestCase.size() ; i++){
                 JSONObject fieldTest = (JSONObject) dataTestCase.get(i);
                 String action = (String) fieldTest.get("action");
@@ -66,7 +64,7 @@ public class ReadFile {
                     driver.findElement(By.cssSelector("button[type='submit']")).click();
                     Thread.sleep(1000);
                     Assert.assertTrue(driver.getPageSource().contains(message));
-//                    Thread.sleep(000);
+                    Thread.sleep(000);
                     driver.get(url);
                 }
             }
@@ -83,7 +81,7 @@ public class ReadFile {
         JSONObject option = (JSONObject)data.get(0);
         String madal = (String)option.get("madal");
         if(!madal.equals("")){
-            driver.findElement(demo.getBy(madal)).click();
+            driver.findElement(chkSelector.getBy(madal)).click();
         }
         Thread.sleep(2000);
         String numRandom = String.valueOf(getRandomInt(1,999));

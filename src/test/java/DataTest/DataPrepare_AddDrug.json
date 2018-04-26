@@ -15,6 +15,6 @@
   {
     "action":"input",
     "selector":"css=input[ng-model='new_prescription.duration']",
-    "data":"2"
+    "data":"5"
   }
 ]

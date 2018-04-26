@@ -9,13 +9,14 @@ import org.json.simple.parser.ParseException;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import support.EnterAction;
+import support.*;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class EditName {
     WebDriver driver = Driver.webDriver;
-    EnterAction enter = new EnterAction(driver);
+    EnterAction enter = new EnterAction();
+    CheckSelector chkSelector = new CheckSelector();
     @Step("Check edit value of Name field <fileEditName> and <url>")
     public void checkEditName(String fileEditName, String url) throws InterruptedException {
         Thread.sleep(2000);
@@ -33,10 +34,10 @@ public class EditName {
                 JSONArray arrDataTest = (JSONArray) fieldTest.get("data");
                 for (int j = 0 ; j < arrDataTest.size(); j++){
                     if(!madal.equals("")){
-                        driver.findElement(enter.getBy(madal)).click();
+                        driver.findElement(chkSelector.getBy(madal)).click();
                     }
                     Thread.sleep(3000);
-                    driver.findElement(enter.getBy(selector)).clear();
+                    driver.findElement(chkSelector.getBy(selector)).clear();
                     JSONObject dataEdit = (JSONObject) arrDataTest.get(j);
                     String value = (String) dataEdit.get("value");
                     String message = (String) dataEdit.get("assert");
@@ -59,14 +60,11 @@ public class EditName {
                     Thread.sleep(2000);
                 }
             }
-
         } catch (IOException e1) {
             e1.printStackTrace();
-
         }
         catch (ParseException e1) {
             e1.printStackTrace();
         }
-
     }
 }

@@ -12,7 +12,7 @@
         "assert":"Số không đúng định dạng"
       },
       {
-        "value":"3",
+        "value":"10",
         "assert":"Tạo đơn thuốc thành công"
       }
     ]

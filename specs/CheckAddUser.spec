@@ -1,8 +1,9 @@
 Test Add User
 =====================
+Tags: add, user
 Login as Admin
 ----------------
-*Đăng nhập với "admin_agency@gmail.com" và "Methadone@2017"
+*Login with "admin_agency@gmail.com" and "Methadone@2017"
 
 Test Email Field
 ----------------
